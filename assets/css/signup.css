@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;0,900;1,900&display=swap');
 
 *{
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     -webkit-font-smoothin: antialiased;
-    color: white;
+    color:  rgb(41, 41, 41);
     overflow: hidden;
 }
 
 ::placeholder{
-    color: #292B3D;
+    color:  rgb(41, 41, 41);
     opacity: 1;
 }
 
 .modal-body p{
-    color: #292B3D;
+    color:  rgb(41, 41, 41);
 }
 
 .btn {
@@ -40,7 +40,7 @@
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1;
-    color: #292B3D;
+    color: #FFD600;
     text-shadow: 0 1px 0 #fff;
     opacity: 1;
 }
@@ -61,7 +61,7 @@ button.close {
 }
 
 .modal-title{
-    color: #292B3D;
+    color:  rgb(41, 41, 41);
 }
 
 .modal-open {
@@ -237,16 +237,17 @@ body{
 
 .signup-form button{
     margin-top: 2vw;
-    background: #292B3D;
+    background: #FFD600;
     border-radius: 5px;
     border: none;
+    color:  rgb(41, 41, 41);
     width:150px;
     font-size: 18px;
     height: 50px;
 }
 
 .image-form{
-    background-color: #292B3D;
+    background-color: #FFD600;
     width: 50%;
     height: 100%;
 }
@@ -268,9 +269,9 @@ body{
 }
 
 .form-header h1{
-    color: #292B3D;
+    color:  rgb(41, 41, 41);
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
     margin: 0 auto;
     margin-top: 3vh;
@@ -287,7 +288,7 @@ body{
 
 .form-field h1{
     width: 40%;
-    color: #292B3D;
+    color:  rgb(41, 41, 41);
     font-weight: normal;
     font-size: 20px;
 }
@@ -299,10 +300,10 @@ body{
 .form-field input{
     width: 50%;
     border: none;
-    border-bottom: 1px solid #292B3D;
+    border-bottom: 1px solid #FFD600;
     font-size: 20px;
     height: 24px;
-    color: #292B3D;
+    color:  rgb(41, 41, 41);
 }
 
 .form-field select{
@@ -311,10 +312,10 @@ body{
     -webkit-appearance: none;
     width: 50%;
     border: none;
-    border-bottom: 1px solid #292B3D;
+    border-bottom: 1px solid #FFD600;
     font-size: 20px;
     height: 24px;
-    color: #292B3D;
+    color:  rgb(41, 41, 41);
 }
 
 .form-field select:first-of-type{
@@ -325,7 +326,7 @@ body{
 
 /* The container */
 label{
-    color: #292B3D;
+    color:  rgb(41, 41, 41);
     font-size: 18px;
     margin: 0 auto;
 }
@@ -492,11 +493,11 @@ label{
 }
 
 #terms-conditions-modal{
-    font-family: 'DM Sans', sans-serif;
-    color: #292B3D;
+    font-family: 'Work Sans', sans-serif;
+    color: #FFD600;
     overflow: hidden;
     text-align: center;
-    text-decoration: #292B3D underline solid;
+    text-decoration: #212529 underline solid;
     cursor: pointer;
 }
 
@@ -542,7 +543,7 @@ label{
 @media only screen and (max-device-width: 625px ){
     
     ::placeholder{
-        color: #292B3D;
+        color:  rgb(41, 41, 41);
         opacity: 1;
     }
 
@@ -559,7 +560,7 @@ label{
     }
 
     .signup-form{
-        background-color: #292B3D;
+        background-color: #fff;
         width: 100%;
     }
 
@@ -582,40 +583,44 @@ label{
         margin: 2vw;
         margin-bottom: 2vw;
         border:none;
+        box-shadow: inset 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
         height: 5vh;
         font-size: 18px;
         border-radius: 5px;
-        font-family: DM Sans, 'Font Awesome 5 Free';
-        color: #292B3D;
+        font-family: Work Sans, 'Font Awesome 5 Free';
+        color:  rgb(41, 41, 41);
         padding-left: 2vw;
     }
+
     .form-field select{
         width: 92%;
-        color: #292B3D;
+        box-shadow: inset 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+        color:  rgb(41, 41, 41);
         /* margin: 1vw; */
         margin-bottom: 2vw;
         border:none;
         height: 5vh;
         font-size: 18px;
         border-radius: 5px;
-        font-family: DM Sans, 'Font Awesome 5 Free';
+        font-family: Work Sans, 'Font Awesome 5 Free';
         padding-left: 2vw;
     }
 
 
     .form-header h1{
-        font-size: 18px;
+        font-size: 24px;
         max-width: 70%;
-        color: #fff;
+        color:  rgb(41, 41, 41);
     }
 
     .signup-form button{
         margin-top: 5vh;
-        background: #3ABDB2;
+        background: #FFD600;
         border-radius: 5px;
         border: none;
         width:150px;
         font-size: 18px;
+        color:  rgb(41, 41, 41);
         font-weight: bold;
         height: 50px;
     }
@@ -628,7 +633,7 @@ label{
         text-align: center;
         margin: 0 auto;
         width: 75%;
-        color: white;
+        color:  rgb(41, 41, 41);
     }
 
     .checkbox-input{
@@ -645,9 +650,9 @@ label{
 
 
     #terms-conditions-modal{
-        color: white;
+        color:  rgb(41, 41, 41);
         text-align: center;
-        text-decoration: white underline solid;
+        text-decoration: #212529 underline solid;
         cursor: pointer;
     }
 

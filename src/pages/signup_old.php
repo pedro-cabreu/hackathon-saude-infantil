@@ -20,20 +20,6 @@
             <div class="form-wrapper">
                 <form onsubmit="signUp()" action="javascript:void(0)">
                     <div class="form-field">
-                        <h1></h1>
-                        <select name="" id="" required>
-                            <option value="">
-                                Você é Professor ou Parente?
-                            </option>
-                            <option value="">
-                                Parente
-                            </option>
-                            <option value="">
-                                Professor
-                            </option>
-                        </select>                    
-                    </div>
-                    <div class="form-field">
                         <h1>Nome Completo:</h1>
                         <input placeholder="&#xF007; Nome Completo" type="text" name="name" id="name" required>
                     </div>
@@ -57,13 +43,15 @@
                     </div>
                     <div class="checkbox-input">
                         <input id="check-terms" type="checkbox">
-                        <label id="terms-conditions" class="container">Concordo com os termos e condições</label>
+                        <label id="terms-conditions" class="container">Concordo com os termos e condições da UNIFAE
+                        </label>
                     </div>
                     <span id="terms-conditions-modal">Termos e Condições
                         </span>
             </div>
             <button type="submit">Tudo Pronto!</button>
             </form>
+            <label id="labsoft-info"> Desenvolvido por Labsoft-Unifae </label>
         </div>
         <div class="image-form" style="text-align: center">
             <img src="../../assets/images/signup.svg" alt="">

@@ -74,17 +74,17 @@ function testando(id_click){
     console.log(r, i, a, s, e, c);
  }
 
-$(document).ready(function () {
-    var userId=$.session.get('user_id');
-    if(userId!=null){
-        getCourseInfo();
-        console.log('pegando info');
-    }else{
-        alert('Olá, é necessário efetuar o seu cadastro!')
-        $(location).attr('href', rootPath+'src/pages/signup.php');
-        return;
-    }
-});
+// $(document).ready(function () {
+//     var userId=$.session.get('user_id');
+//     if(userId!=null){
+//         getCourseInfo();
+//         console.log('pegando info');
+//     }else{
+//         alert('Olá, é necessário efetuar o seu cadastro!')
+//         $(location).attr('href', rootPath+'src/pages/signup.php');
+//         return;
+//     }
+// });
 
 function getCourseInfo(){
 

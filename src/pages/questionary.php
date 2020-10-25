@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>UNIFAE - Teste Vocacional</title>
+    <title>Educa Mais Saúde</title>
     <link rel="shortcut icon" href="../assets/images/favico.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -49,53 +49,53 @@
             </div>
 
             <div style="display: none" id="question-1" class="question-header">
-                <h3 id="question-title">Lorem Ipsum Hackathon da Saúde?</h3>
+                <h3 id="question-title">Quais alimentos você costuma consumir semanalmente?</h3>
                 <div class="questions-wrapper">
                     <div class="box">
-                        <img src="../../assets/images/icons/icon1.svg" alt="">
+                        <img src="../../assets/images/1.jpeg" alt="">
                     </div>
                     <div class="box">
-                        <img src="../../assets/images/icons/icon2.svg" alt="">
+                        <img src="../../assets/images/biscoito-recheado.jpg" alt="">
                     </div>
                     <div class="box">
-                        <img src="../../assets/images/icons/icon3.svg" alt="">
+                        <img src="../../assets/images/3.jpeg" alt="">
                     </div>
                     <div class="box">
-                        <img src="../../assets/images/icons/icon4.svg" alt="">
+                        <img src="../../assets/images/4.jpeg" alt="">
                     </div>
                 </div>
             </div>
             <div style="display: none" id="question-2" class="question-header">
-                <h3 id="question-title">Lorem Ipsum Hackathon da Saúde2?</h3>
+                <h3 id="question-title">Quais alimentos você costuma consumir semanalmente?</h3>
                 <div class="questions-wrapper">
-                    <div class="box">
-                        <img src="../../assets/images/icons/icon1.svg" alt="">
+                <div class="box">
+                        <img src="../../assets/images/5.jpeg" alt="">
                     </div>
                     <div class="box">
-                        <img src="../../assets/images/icons/icon2.svg" alt="">
+                        <img src="../../assets/images/salsicha.jpg" alt="">
                     </div>
                     <div class="box">
-                        <img src="../../assets/images/icons/icon3.svg" alt="">
+                        <img src="../../assets/images/batata.jpg" alt="">
                     </div>
                     <div class="box">
-                        <img src="../../assets/images/icons/icon4.svg" alt="">
+                        <img src="../../assets/images/8.jpeg" alt="">
                     </div>
                 </div>
             </div>
             <div style="display: none" id="question-3" class="question-header">
-                <h3 id="question-title">Lorem Ipsum Hackathon da Saúde3?</h3>
+                <h3 id="question-title">Quais alimentos você costuma consumir semanalmente?</h3>
                 <div class="questions-wrapper">
-                    <div class="box">
-                        <img src="../../assets/images/icons/icon1.svg" alt="">
+                <div class="box">
+                        <img src="../../assets/images/9.jpeg" alt="">
                     </div>
                     <div class="box">
-                        <img src="../../assets/images/icons/icon2.svg" alt="">
+                        <img src="../../assets/images/10.jpeg" alt="">
                     </div>
                     <div class="box">
-                        <img src="../../assets/images/icons/icon3.svg" alt="">
+                        <img src="../../assets/images/11.jpeg" alt="">
                     </div>
                     <div class="box">
-                        <img src="../../assets/images/icons/icon4.svg" alt="">
+                        <img src="../../assets/images/12.jpeg" alt="">
                     </div>
                 </div>
             </div>
@@ -104,32 +104,25 @@
                 <h3 id="slider-text">Responda as questões a seguir de acordo com o estilo de vida de sua família:</h3>
                 <div class="slider-content">
                     <div class="question">
-                        <h5>Lorem ipsum dolor sit amet consectetur?</h5>
+                        <h5>Você  faz  atividade  física pelo  menos  30  minutos  por  dia,  todos  os  dias  da  semana?</h5>
                         <div class="slider-label">
-                            <p>Discordo</p><p>Neutro</p><p>Concordo</p>
+                            <p>Não</p><p>2 a 4 vezes na semana</p><p>Sim</p>
                         </div>
                         <input class="slider" type="range" id="vol" name="vol" default="2" min="1" max="3">
                     </div>
                     <div class="question">
-                        <h5>Lorem ipsum dolor sit amet consectetur?</h5>
+                        <h5>Você come legumes e verduras todo dia? </h5>
                         <div class="slider-label">
-                            <p>Discordo</p><p>Neutro</p><p>Concordo</p>
+                            <p>Não</p><p>Às vezes</p><p>Sim</p>
                         </div>
                         <input class="slider" type="range" id="vol" name="vol" default="2" min="1" max="3">
                     </div>
                     <div class="question">
-                        <h5>Lorem ipsum dolor sit amet consectetur?</h5>
+                        <h5>Com que frequencia você  costuma doces, refrigerantes e sucos industrializados?</h5>
                         <div class="slider-label">
-                            <p>Discordo</p><p>Neutro</p><p>Concordo</p>
+                            <p>Nunca</p><p>Às vezes</p><p>Sempre</p>
                         </div>
                         <input class="slider" type="range" id="vol" name="vol" default="2" min="1" max="3">
-                    </div>
-                    <div class="question">
-                        <h5>Lorem ipsum dolor sit amet consectetur?</h5>
-                        <div class="slider-label">
-                            <p>Discordo</p><p>Neutro</p><p>Concordo</p>
-                        </div>
-                        <input style="margin-bottom: 50px" class="slider" type="range" id="vol" name="vol" default="2" min="1" max="3">
                     </div>
                 </div>
             </div>
@@ -137,32 +130,25 @@
                 <h3 id="slider-text">Responda as questões a seguir de acordo com o estilo de vida de sua família:</h3>
                 <div class="slider-content">
                     <div class="question">
-                        <h5>Lorem ipsum dolor sit amet consectetur?</h5>
+                        <h5>Quantas refeições você costuma fazer?</h5>
                         <div class="slider-label">
-                            <p>Discordo</p><p>Neutro</p><p>Concordo</p>
+                            <p>1</p><p>3</p><p>6+</p>
                         </div>
                         <input class="slider" type="range" id="vol" name="vol" default="2" min="1" max="3">
                     </div>
                     <div class="question">
-                        <h5>Lorem ipsum dolor sit amet consectetur?</h5>
+                        <h5>Você  costuma  ler  a  informação  nutricional  que  está  presente no rótulo de alimentos industrializados?</h5>
                         <div class="slider-label">
-                            <p>Discordo</p><p>Neutro</p><p>Concordo</p>
+                            <p>Nunca</p><p>Às vezes</p><p>Sempre</p>
                         </div>
                         <input class="slider" type="range" id="vol" name="vol" default="2" min="1" max="3">
                     </div>
                     <div class="question">
-                        <h5>Lorem ipsum dolor sit amet consectetur?</h5>
+                        <h5>Com que frequencia você costuma comer frituras e embutidos?</h5>
                         <div class="slider-label">
-                            <p>Discordo</p><p>Neutro</p><p>Concordo</p>
+                            <p>Nunca</p><p>Às vezes</p><p>Sempre</p>
                         </div>
                         <input class="slider" type="range" id="vol" name="vol" default="2" min="1" max="3">
-                    </div>
-                    <div class="question">
-                        <h5>Lorem ipsum dolor sit amet consectetur?</h5>
-                        <div class="slider-label">
-                            <p>Discordo</p><p>Neutro</p><p>Concordo</p>
-                        </div>
-                        <input style="margin-bottom: 50px" class="slider" type="range" id="vol" name="vol" default="2" min="1" max="3">
                     </div>
                 </div>
             </div>

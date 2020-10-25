@@ -55,7 +55,7 @@ $('#nxt-button').click(function () {
 
         case 7:
 
-            alert('final');
+            window.location.href = "http://labsoft-unifae.com.br/hackathon/src/pages/results.php";
     
             break;
     
@@ -63,4 +63,13 @@ $('#nxt-button').click(function () {
     }
 
     page++;
+});
+
+$(document).ready(function () {
+
+    $('.box').on('click', function () {  //  here $(this) is refering to document
+
+        $(this).hasClass('checked') ? $(this).removeClass('checked') : $(this).addClass('checked');
+
+    });
 });

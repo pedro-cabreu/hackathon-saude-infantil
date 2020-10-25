@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>UNIFAE - Teste Vocacional</title>
+    <title>Educa Mais Saúde</title>
     <link rel="shortcut icon" href="../assets/images/favico.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
     <link rel="stylesheet" href="../../assets/css/signup.css">

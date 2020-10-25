@@ -330,6 +330,10 @@ body{
         max-height: 400px;
     }
 
+    #nxt-button:hover{
+        cursor: pointer;
+    }
+
     #welcome-text{
         box-sizing: border-box;
         width: 95%;
@@ -339,7 +343,7 @@ body{
         font-size: 30px;
         color: #292929;
         margin-left: 10px;
-        text-align: justify;
+        text-align: center;
     }
 
     #imc-text{
@@ -351,7 +355,7 @@ body{
         font-size: 27px;
         color: #292929;
         margin-left: 10%;
-        text-align: justify;
+        text-align: center;
     }
 
     ::placeholder{
@@ -363,6 +367,14 @@ body{
         font-family: 'Work Sans', 'Font Awesome 5 Free';
         font-size: 30px;
         width: 85%;
+        margin-top: 10px;
+        height: 70px;
+    }
+
+    .imc-select{
+        font-family: 'Work Sans', 'Font Awesome 5 Free';
+        font-size: 30px;
+        width: 89%;
         margin-top: 10px;
         height: 70px;
     }

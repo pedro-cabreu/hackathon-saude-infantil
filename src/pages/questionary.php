@@ -14,8 +14,8 @@
     <input type="hidden" id="area" name="area" value=1>
     <input type="hidden" id="ids" name="ids" value="">
     <div class="main-wrapper">
-        <div class="square-wrapper">
-            <div style="display: none" class="child-info">
+        <div class="square-wrapper" style="overflow:auto;">
+            <div class="child-info">
                 <div class="welcome">
                     <h3 id="welcome-text">Vamos precisar de algumas medidas e informações de seu filho(a).</h3>
                     <div class="welcome-image">
@@ -24,14 +24,83 @@
                     </div>
                 </div>
             </div>
-            <div  style="display: none" class="child-imc">
+            <div style="display: none" class="child-imc">
                 <h3 id="imc-text">Preencha as informações do seu filho(a) a seguir:</h3>
                 <input class="imc-form" id="child-weight" type="text" placeholder="&#xf496; Peso (em kg)">
                 <input class="imc-form" id="child-height" type="text" placeholder="&#xf548; Altura (em cm)">
                 <input class="imc-form" id="child-age" type="number" placeholder="&#xf783; Idade">
+                <select class="imc-select" name="" id="">
+                    <option value="">&#xf228; Sexo</option>
+                    <option value="m">Homem</option>
+                    <option value="f">Mulher</option>
+                </select>
             </div>
 
-            <div class="slider-questions">
+            <div  style="display: none" class="adult-imc">
+                <h3 id="imc-text">Preencha as suas informações a seguir:</h3>
+                <input class="imc-form" id="adult-weight" type="text" placeholder="&#xf496; Peso (em kg)">
+                <input class="imc-form" id="adult-height" type="text" placeholder="&#xf548; Altura (em cm)">
+                <input class="imc-form" id="adult-age" type="number" placeholder="&#xf783; Idade">
+                <select class="imc-select" name="" id="">
+                    <option value="">&#xf228; Sexo</option>
+                    <option value="m">Homem</option>
+                    <option value="f">Mulher</option>
+                </select>
+            </div>
+
+            <div style="display: none" id="question-1" class="question-header">
+                <h3 id="question-title">Lorem Ipsum Hackathon da Saúde?</h3>
+                <div class="questions-wrapper">
+                    <div class="box">
+                        <img src="../../assets/images/icons/icon1.svg" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="../../assets/images/icons/icon2.svg" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="../../assets/images/icons/icon3.svg" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="../../assets/images/icons/icon4.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div style="display: none" id="question-2" class="question-header">
+                <h3 id="question-title">Lorem Ipsum Hackathon da Saúde2?</h3>
+                <div class="questions-wrapper">
+                    <div class="box">
+                        <img src="../../assets/images/icons/icon1.svg" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="../../assets/images/icons/icon2.svg" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="../../assets/images/icons/icon3.svg" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="../../assets/images/icons/icon4.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div style="display: none" id="question-3" class="question-header">
+                <h3 id="question-title">Lorem Ipsum Hackathon da Saúde3?</h3>
+                <div class="questions-wrapper">
+                    <div class="box">
+                        <img src="../../assets/images/icons/icon1.svg" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="../../assets/images/icons/icon2.svg" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="../../assets/images/icons/icon3.svg" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="../../assets/images/icons/icon4.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div id="question-4" style="display: none" class="slider-questions">
                 <h3 id="slider-text">Responda as questões a seguir de acordo com o estilo de vida de sua família:</h3>
                 <div class="slider-content">
                     <div class="question">
@@ -60,81 +129,52 @@
                         <div class="slider-label">
                             <p>Discordo</p><p>Neutro</p><p>Concordo</p>
                         </div>
-                        <input class="slider" type="range" id="vol" name="vol" default="2" min="1" max="3">
+                        <input style="margin-bottom: 50px" class="slider" type="range" id="vol" name="vol" default="2" min="1" max="3">
                     </div>
                 </div>
             </div>
-
-            <div style="display: none" class="question-header">
-                <h3 id="question-title">Lorem Ipsum Hackathon da Saúde?</h3>
-                <div class="questions-wrapper">
-                    <div class="box">
-                        <img src="../../assets/images/icons/icon1.svg" alt="">
+            <div id="question-5" style="display: none" class="slider-questions">
+                <h3 id="slider-text">Responda as questões a seguir de acordo com o estilo de vida de sua família:</h3>
+                <div class="slider-content">
+                    <div class="question">
+                        <h5>Lorem ipsum dolor sit amet consectetur?</h5>
+                        <div class="slider-label">
+                            <p>Discordo</p><p>Neutro</p><p>Concordo</p>
+                        </div>
+                        <input class="slider" type="range" id="vol" name="vol" default="2" min="1" max="3">
                     </div>
-                    <div class="box">
-                        <img src="../../assets/images/icons/icon2.svg" alt="">
+                    <div class="question">
+                        <h5>Lorem ipsum dolor sit amet consectetur?</h5>
+                        <div class="slider-label">
+                            <p>Discordo</p><p>Neutro</p><p>Concordo</p>
+                        </div>
+                        <input class="slider" type="range" id="vol" name="vol" default="2" min="1" max="3">
                     </div>
-                    <div class="box">
-                        <img src="../../assets/images/icons/icon3.svg" alt="">
+                    <div class="question">
+                        <h5>Lorem ipsum dolor sit amet consectetur?</h5>
+                        <div class="slider-label">
+                            <p>Discordo</p><p>Neutro</p><p>Concordo</p>
+                        </div>
+                        <input class="slider" type="range" id="vol" name="vol" default="2" min="1" max="3">
                     </div>
-                    <div class="box">
-                        <img src="../../assets/images/icons/icon4.svg" alt="">
+                    <div class="question">
+                        <h5>Lorem ipsum dolor sit amet consectetur?</h5>
+                        <div class="slider-label">
+                            <p>Discordo</p><p>Neutro</p><p>Concordo</p>
+                        </div>
+                        <input style="margin-bottom: 50px" class="slider" type="range" id="vol" name="vol" default="2" min="1" max="3">
                     </div>
                 </div>
             </div>
         </div>
         <div class="buttons">
-            <a href="">Próxima</a>
-        </div>
-        <div style="display:none" class="square-test">
-            <div class="square-header">
-                <h4>Selecione uma ou mais características que mais se parecem com você:</h4>
-            </div>
-            <div class="questions-container">
-            </div>
-            <div class="test-footer">
-                <button type="button" id="button-next" onclick="next()">Próxima</button>
-            </div>
-        </div>
-
-
-        <!-- Parte do teste com slider -->
-
-        <div class="slider-header">
-            <div class="slider-header-type">
-            </div>
-        </div>
-        <div class="slider-test">
-            <div class="slider-content">
-
-                <div class="question">
-                    <h5>Lorem ipsum dolor sit amet consectetur?</h5>
-                    <div class="slider-label">
-                        <p>Discordo</p><p>Neutro</p><p>Concordo</p>
-                    </div>
-                    <input class="slider" type="range" id="vol" name="vol" default="2" min="1" max="3">
-                </div>
-                <div class="question">
-                    <h5>Lorem ipsum dolor sit amet consectetur?</h5>
-                    <div class="slider-label">
-                        <p>Discordo</p><p>Neutro</p><p>Concordo</p>
-                    </div>
-                    <input class="slider" type="range" id="vol" name="vol" default="2" min="1" max="3">
-                </div>
-                <div class="question">
-                    <h5>Lorem ipsum dolor sit amet consectetur?</h5>
-                    <div class="slider-label">
-                        <p>Discordo</p><p>Neutro</p><p>Concordo</p>
-                    </div>
-                    <input class="slider" type="range" id="vol" name="vol" default="2" min="1" max="3">
-                </div>
-            </div>
+            <a id="nxt-button">Próxima</a>
         </div>
 
 
     </div>
     <script src="../../assets/js/jquery-3.5.1.js"></script>
     <script src="../../assets/js/jquery.session.js"></script>
-    <!-- <script src="../../assets/js/scripts.js"></script> -->
+    <script src="../../assets/js/questionary.js"></script>
 </body>
 </html>
